@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Comparapção de Números</h1>
+        <h2>Números a comparar:</h2>
+        <form id="form-compare">
+            <input type="number" id="number-A" required placeholder="Numeo A"/>
+            <input type="number" id="number-B" required placeholder="Numeo B"/>
+            <p class="error-message">
+                O número "B" precisa ser maior do que o número "A" 
+            </p>
+            <button type="submit">Comparar</button>
+        </form>
+        <p class="success-message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
